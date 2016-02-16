@@ -1,0 +1,1 @@
+#### You can get file MIMEType with the tool.
