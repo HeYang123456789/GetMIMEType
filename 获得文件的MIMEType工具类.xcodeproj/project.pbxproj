@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B25C8C91C733A130009704B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B25C8C81C733A130009704B /* main.m */; };
+		3B25C8CC1C733A130009704B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B25C8CB1C733A130009704B /* AppDelegate.m */; };
+		3B25C8CF1C733A130009704B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B25C8CE1C733A130009704B /* ViewController.m */; };
+		3B25C8D21C733A130009704B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B25C8D01C733A130009704B /* Main.storyboard */; };
+		3B25C8D41C733A130009704B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B25C8D31C733A130009704B /* Assets.xcassets */; };
+		3B25C8D71C733A130009704B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B25C8D51C733A130009704B /* LaunchScreen.storyboard */; };
+		3B25C8E11C733A340009704B /* GetMIMEType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B25C8E01C733A340009704B /* GetMIMEType.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B25C8C41C733A130009704B /* 获得文件的MIMEType工具类.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "获得文件的MIMEType工具类.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25C8C81C733A130009704B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B25C8CA1C733A130009704B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B25C8CB1C733A130009704B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B25C8CD1C733A130009704B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B25C8CE1C733A130009704B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B25C8D11C733A130009704B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B25C8D31C733A130009704B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B25C8D61C733A130009704B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B25C8D81C733A130009704B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B25C8DF1C733A340009704B /* GetMIMEType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMIMEType.h; sourceTree = "<group>"; };
+		3B25C8E01C733A340009704B /* GetMIMEType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMIMEType.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B25C8C11C733A130009704B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B25C8BB1C733A130009704B = {
+			isa = PBXGroup;
+			children = (
+				3B25C8C61C733A130009704B /* 获得文件的MIMEType工具类 */,
+				3B25C8C51C733A130009704B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B25C8C51C733A130009704B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B25C8C41C733A130009704B /* 获得文件的MIMEType工具类.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B25C8C61C733A130009704B /* 获得文件的MIMEType工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				3B25C8DE1C733A340009704B /* GetMIMEType */,
+				3B25C8CA1C733A130009704B /* AppDelegate.h */,
+				3B25C8CB1C733A130009704B /* AppDelegate.m */,
+				3B25C8CD1C733A130009704B /* ViewController.h */,
+				3B25C8CE1C733A130009704B /* ViewController.m */,
+				3B25C8D01C733A130009704B /* Main.storyboard */,
+				3B25C8D31C733A130009704B /* Assets.xcassets */,
+				3B25C8D51C733A130009704B /* LaunchScreen.storyboard */,
+				3B25C8D81C733A130009704B /* Info.plist */,
+				3B25C8C71C733A130009704B /* Supporting Files */,
+			);
+			path = "获得文件的MIMEType工具类";
+			sourceTree = "<group>";
+		};
+		3B25C8C71C733A130009704B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B25C8C81C733A130009704B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B25C8DE1C733A340009704B /* GetMIMEType */ = {
+			isa = PBXGroup;
+			children = (
+				3B25C8DF1C733A340009704B /* GetMIMEType.h */,
+				3B25C8E01C733A340009704B /* GetMIMEType.m */,
+			);
+			path = GetMIMEType;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B25C8C31C733A130009704B /* 获得文件的MIMEType工具类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B25C8DB1C733A130009704B /* Build configuration list for PBXNativeTarget "获得文件的MIMEType工具类" */;
+			buildPhases = (
+				3B25C8C01C733A130009704B /* Sources */,
+				3B25C8C11C733A130009704B /* Frameworks */,
+				3B25C8C21C733A130009704B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "获得文件的MIMEType工具类";
+			productName = "获得文件的MIMEType工具类";
+			productReference = 3B25C8C41C733A130009704B /* 获得文件的MIMEType工具类.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B25C8BC1C733A130009704B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HEYANG;
+				TargetAttributes = {
+					3B25C8C31C733A130009704B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D96KWVMP74;
+					};
+				};
+			};
+			buildConfigurationList = 3B25C8BF1C733A130009704B /* Build configuration list for PBXProject "获得文件的MIMEType工具类" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B25C8BB1C733A130009704B;
+			productRefGroup = 3B25C8C51C733A130009704B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B25C8C31C733A130009704B /* 获得文件的MIMEType工具类 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B25C8C21C733A130009704B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25C8D71C733A130009704B /* LaunchScreen.storyboard in Resources */,
+				3B25C8D41C733A130009704B /* Assets.xcassets in Resources */,
+				3B25C8D21C733A130009704B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B25C8C01C733A130009704B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25C8CF1C733A130009704B /* ViewController.m in Sources */,
+				3B25C8CC1C733A130009704B /* AppDelegate.m in Sources */,
+				3B25C8E11C733A340009704B /* GetMIMEType.m in Sources */,
+				3B25C8C91C733A130009704B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B25C8D01C733A130009704B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B25C8D11C733A130009704B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B25C8D51C733A130009704B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B25C8D61C733A130009704B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B25C8D91C733A130009704B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B25C8DA1C733A130009704B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B25C8DC1C733A130009704B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "获得文件的MIMEType工具类/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodboy.-----MIMEType---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B25C8DD1C733A130009704B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "获得文件的MIMEType工具类/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goodboy.-----MIMEType---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B25C8BF1C733A130009704B /* Build configuration list for PBXProject "获得文件的MIMEType工具类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B25C8D91C733A130009704B /* Debug */,
+				3B25C8DA1C733A130009704B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B25C8DB1C733A130009704B /* Build configuration list for PBXNativeTarget "获得文件的MIMEType工具类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B25C8DC1C733A130009704B /* Debug */,
+				3B25C8DD1C733A130009704B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B25C8BC1C733A130009704B /* Project object */;
+}
